@@ -1,0 +1,2 @@
+medida = float(input('Digite sua medida em metros: '))
+print (f'Sua medida {medida} em centímetros é {medida*100:.0f} \nEm milímetros {medida*1000:.0f} \nEm decímetros é {medida*10:.0f} \nEm decametros {medida/10:.1f} \nEm hectometros {medida/100:.1f} \nEm quilometros {medida/1000}')

@@ -1,0 +1,6 @@
+print ('-'*12)
+preco = float(input('Qual o preço do produto? R$'))
+print ('-'*12)
+print(f'Pagando a vista o produto tem desconto de 10%, portanto o produto sairía a vista: R${preco - preco*10/100:.2f} ')
+print(f'Pagando o produto em 12x, o produto sairía apenas R${preco/12:.2f} por mes. ')
+print ('-'*12)
